@@ -3,15 +3,15 @@
 // Usando os conceitos aprendidos nesse módulo, e sem alterar o arquivo index.html, adicione um título simples ao site com o id 'titulo', e um elemento que represente um produto à venda. O produto precisa incluir pelo menos o nome, a descrição e o preço. Pode incluir outros "elementos filhos" se achar necessário como, por exemplo, uma imagem. Procure usar o método simples e o método complexo, ensinados neste tópico.
 
 //Adicionando um título
-const titulo = document.createElement('h1');
-titulo.id = 'titulo';
-titulo.textContent = 'Loja de tecnologia';
-document.body.appendChild(titulo);
+const titulo = document.createElement('h1'); // Criando um elemento HTML do tipo <h1> e armazenando na constante 'titulo'
+titulo.id = 'titulo'; // Atribuindo um ID chamado 'titulo' ao elemento <h1>
+titulo.textContent = 'Loja de tecnologia'; // Definindo o conteúdo de texto do elemento <h1>
+document.body.appendChild(titulo); // Adicionando o elemento <h1> como filho do elemento <body> no DOM
 
 //Colocando o produto
-const produto = document.createElement('div');
-produto.id = 'produto';
-produto.style.border = '1px solid #ccc';
+const produto = document.createElement('div');//aqui está sendo criado um elemento div
+produto.id = 'produto';//aqui está sendo atribudo um id ao elemento div
+produto.style.border = '1px solid #ccc';//estou aplicando um estilo na borda
 produto.style.padding = '16px';
 produto.style.marginTop = '16px';
 produto.style.borderRadius = '8px';
